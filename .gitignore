@@ -1,0 +1,4 @@
+extern/bin/
+src/test.c
+*.json
+bin/
