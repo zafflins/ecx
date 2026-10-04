@@ -3,7 +3,7 @@
     "type": "dll",
     "name": "ecx",
     "dest": "bin",
-    "ccflags": ["-std=c99", "-O2"],
+    "ccflags": ["std=c99", "O2"],
     "includes": ["include", "extern/include"],
     "sources": ["src/ecx.c"],
     "deps": ["github:zafflins/zafflib"]
