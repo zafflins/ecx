@@ -1,0 +1,11 @@
+{
+  "main": {
+    "type": "dll",
+    "name": "ecx",
+    "dest": "bin",
+    "flags": ["-std=c99", "-O2"],
+    "includes": ["include", "extern/include"],
+    "sources": ["src/ecx.c"],
+    "deps": ["extern/bin:zl"]
+  }
+}
