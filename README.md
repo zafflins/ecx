@@ -5,12 +5,8 @@ ECX is a single header C99 entity-component-system (ECS) library.
 ## Dependencies and Build
 
 ECX is built with [`r3make`](https://github.com/r3shape/r3make), using the
-project's [`r3make.json`](../r3make.json) build configuration. The configuration
+project's [`r3make.json`](r3make.json) build configuration. The configuration
 builds the ECX shared library and defines a test executable. To build the project with r3make just run `r3make -c` to build the library.
-
-As an alternative, the included [`Makefile`](../Makefile) supports GCC/MinGW
-with GNU Make. It links the included `extern/bin/libzl.a` statically into
-`bin/ecx.dll`. Run `make` to build the library.
 
 ## Core Concepts
 

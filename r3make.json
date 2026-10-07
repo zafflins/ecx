@@ -1,11 +1,18 @@
 {
+  "project": "ecx",
+
   "main": {
-    "type": "dll",
     "name": "ecx",
     "dest": "bin",
-    "ccflags": ["std=c99", "O2"],
-    "includes": ["include", "extern/include"],
+    "type": "dynamic",
+    "ccflags": [
+      "O2",
+      "Wall",
+      "Werror",
+      "std=c99"
+    ],
     "sources": ["src/ecx.c"],
-    "deps": ["github:zafflins/zafflib"]
+    "deps": ["github::zafflins/zafflib"],
+    "includes": ["include", "extern/include"]
   }
 }
